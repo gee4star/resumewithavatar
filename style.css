@@ -1,226 +1,128 @@
-html,body {
-    height: 100%;
-    width: 100%;
-}
+body {
 
-#main_container{
-    display: flex;
-    /* border: 3px solid grey; */
-    box-shadow: 4px black;
-    height: 934px;
-    width: 40%;
-
-}
-
- #Software_E {
-   color: blue;
-}
-#carrot1 {
-    color: blue;
-}
-#carrot2 {
-    color: blue;
-}
-
-.BlackWomanAvatar {
-    height: 60px;
-    margin-bottom: 0px; 
-}
+    background-color:lightskyblue;
 
 
-/* .HappyFaceEmoji{
-    height: 60px;
-    margin-bottom: 0px; */
-/* } */
-#section1{
-    /* border: 3px solid grey; */
-     
-    box-shadow: 4px black;
-    height: 199px;
 }
-#Box1{
-    /* display: flex; */
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(92, 116, 118, 0.863);
-    border: 3px solid grey;
-    border-radius: 1%;
-    box-shadow: 4px black;
-    height: 330px; 
-    width: 730px; 
-   padding-left: 20px;
-}
-#Box2{
-    position: absolute;
-    top: 10px;
-    left: 363px;
-    /* background-color:aliceblue; */
-    /* border: 3px solid grey; */
-    border-radius: 1%;
-    box-shadow: 4px black;
-    height: 200px;
-    width: 377px;  
-}
-#Box3{
-    position: absolute;
-    top: 212px;
-    left: 10px;
-    /* background-color: gainsboro;
-    border: 3px solid grey; */
-    border-radius: 1%;
-    box-shadow: 4px black;
-    height: 130px;
-    width: 730px;
-    padding-left: 20px;
-}
-#Box4{
-    position: absolute;
-    top: 342px;
-    left: 10px;
-    background-color: rgba(92, 116, 118, 0.863);
-    /* background-color: rgb(167, 226, 249); */
-    border: 3px solid grey;
-    border-radius: 1%;
-    box-shadow: 4px black;
-    height: 630px;
-    width: 470px; 
-    padding-left: 20px;
-    padding-right: 10px;
-  
-}
-#CSJ {
-    margin : 0;
-}
-.LI1 {
-    margin: 0; 
-}
-#Box5{
-    position: absolute;
-    top: 342px;
-    background-color: rgba(92, 116, 118, 0.863);
-    /* background-color: rgb(205, 240, 246); */
-    left: 512px;
-    border: 3px solid grey;
-    border-radius: 1%;
-    box-shadow: 4px black;
-    height: 630px; 
-    width: 228px; 
-    padding-right: 20px;
-}
-#PS {
-    /* margin: 0; */
-}
-#WordPress {
-    border-bottom: 15px solid green;
-    width: 90%;
-    margin: 0;
-    /* margin-bottom: 0px; */
-
-}
-#PHP {
-    border-bottom: 15px solid blue;
-    width: 90%; 
-    margin: 0;
-    /* padding-top: 0px; */
-}
-#HTML {
-    border-bottom: 15px solid red;
-    width: 99%;
-    margin: 0;
-}
-#CSS {
-    border-bottom: 15px solid gold;
-    width: 90%;
-    margin: 0;
-}
-#MySQL {
-    border-bottom: 15px solid blueviolet;
-    width: 70%;
-    margin: 0;
-}
-#languages {
-    /* margin: 0; */
-}
-#English {
+#background-section {
+    background-image: url(https://st.depositphotos.com/1144352/3656/i/450/depositphotos_36567413-stock-photo-pizza.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    background:  solid green;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin: 0;
+   
 }
-#GS {
-    /* margin: 0; */
+.container {
+    height: 450px;
+    width: 650px;
 }
-ul li {
-    list-style: none;
-    position: relative;
+.tabel-container {
+    border: 1px solid snow;
+    width: 600px;
 }
-ul li::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    left: -20px;
-    width: 16px;
-    height: 16px;
+.border1 {
+    height: 150px;
+    width: 180px;
+    border: 1px solid snow;
 }
-ul li:nth-child(1)::before{
-    background-color: blueviolet;
+.border2 {
+    height: 150px;
+    width: 180px;
+     border: 1px solid snow;  
 }
-ul li:nth-child(2)::before{
+.border3 {
+    height: 120px;
+    width: 180px;
+    border: 1px solid snow;
+    margin-top: 60px;
+}
+.img-smiley {
+    height: 55px;
     background-color: gold;
+    border-radius: 50% ;
+    display: block;    
 }
-ul li:nth-child(3)::before{
-    background-color: red;
+.img-smiley:hover {
+    transform: rotate(60deg)
+    
 }
-ul li:nth-child(4)::before{
-    background-color: blue;
+.submit {
+    display: block;
 }
-ul li:nth-child(5)::before{
-    background-color: green;
+.img-pizza:hover {
+    transform: translateX(100px);
+    transition-duration: 1.5s;
 }
-.palm {
-    height: 67px;
-    margin-bottom: 0px; 
+.img-juice-cocktail {
+     height: 400px;
+     width:550px;
+     display: flex;
+    margin-left: 600px;
+    position: absolute;
+    
+}
+.img-juice-cocktail:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+#pizza-lovers {
+    font-size: 35px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 300px;
+  
+    position: absolute;
+    display: block;
+
+}
+.lorem1 {
+    display: block;
+    margin-left: 300px;
+}
+.lorem2 {
+    display: block;
+    margin-left: 300px;
+}
+.lorem3 {
+    display: block;
+    margin-left: 300px;
+}
+.tabel-container {
+    border: 1px solid snow;
+}
+#vb {
+    font-size: 35px;
+}
+.catered-event {
+    height: 200px;
+    width: 350px;
+}
+.juice-bar {
+    height: 200px;
+    width: 350px;
+}
+.fresh-juice {
+    height: 200px;
+    width: 350px;
+}
+.first-name {
+    display: inline;
+}
+.last-name {
+    display: inline;
+}
+.event-type {
+    display: inline;
+}
+.email {
+    display: inline;
+}
+.smoothie {
+    position: absolute;
+    margin-left: 1220px;
+    margin-bottom: 500px;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* #AP {
-    border-bottom: 15px solid blueviolet;
-    width: 7%; 
-    margin: 0;
-}
-#AI {
-    border-bottom: 15px solid gold;
-    width:7%;
-    margin: 0;
-}
-#AID {
-    border-bottom: 15px solid red;
-    width:7%;
-    margin: 0;
-}
-#CD {
-    border-bottom: 15px solid blue;
-    width:7%;
-    margin: 0;
-}
-#DM {
-    border-bottom: 15px  solid green;
-    width:7%; 
-    margin: 0;
-} */
